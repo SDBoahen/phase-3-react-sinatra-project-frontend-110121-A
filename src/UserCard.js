@@ -9,7 +9,9 @@ function UserCard( props ){
 
             <h3>{props.userProp.name}</h3>
 
-            <img src={props.userProp.image_url} alt={`This is an image of ${props.userProp.name}`} />
+            <p>This person loves Woobly: 🤖 {props.userProp.name}</p>
+
+            <img src={props.userProp.image_url} alt={`This is an imhiage of ${props.userProp.name}`} />
 
         <br/><br/>
         -------------------
